@@ -19,7 +19,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/smdk4412-common/proprietary/bin/bcm4334.hcd:system/bin/bcm4334.hcd \
     vendor/samsung/smdk4412-common/proprietary/bin/bcm4334_murata.hcd:system/bin/bcm4334_murata.hcd \
     vendor/samsung/smdk4412-common/proprietary/bin/bcm4334_semco.hcd:system/bin/bcm4334_semco.hcd \
-    vendor/samsung/smdk4412-common/proprietary/bin/bcm4334_semcosh.hcd:system/bin/bcm4334_semcosh.hcd \
     vendor/samsung/smdk4412-common/proprietary/bin/cbd:system/bin/cbd \
     vendor/samsung/smdk4412-common/proprietary/bin/gps.cer:system/bin/gps.cer \
     vendor/samsung/smdk4412-common/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
@@ -31,9 +30,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/smdk4412-common/proprietary/etc/wifi/bcmdhd_sta.bin_b2:system/etc/wifi/bcmdhd_sta.bin_b2 \
     vendor/samsung/smdk4412-common/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
     vendor/samsung/smdk4412-common/proprietary/etc/wifi/nvram_mfg.txt_murata:system/etc/wifi/nvram_mfg.txt_murata \
+    vendor/samsung/smdk4412-common/proprietary/etc/wifi/nvram_mfg.txt_murata_b2:system/etc/wifi/nvram_mfg.txt_murata_b2 \
     vendor/samsung/smdk4412-common/proprietary/etc/wifi/nvram_mfg.txt_semcosh:system/etc/wifi/nvram_mfg.txt_semcosh \
     vendor/samsung/smdk4412-common/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
     vendor/samsung/smdk4412-common/proprietary/etc/wifi/nvram_net.txt_murata:system/etc/wifi/nvram_net.txt_murata \
+    vendor/samsung/smdk4412-common/proprietary/etc/wifi/nvram_net.txt_murata_b2:system/etc/wifi/nvram_net.txt_murata_b2 \
     vendor/samsung/smdk4412-common/proprietary/etc/wifi/nvram_net.txt_semcosh:system/etc/wifi/nvram_net.txt_semcosh \
     vendor/samsung/smdk4412-common/proprietary/lib/egl/libEGL_mali.so:system/lib/egl/libEGL_mali.so \
     vendor/samsung/smdk4412-common/proprietary/lib/egl/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so \
@@ -50,17 +51,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/smdk4412-common/proprietary/usr/idc/sec_touchscreen.idc:system/usr/idc/sec_touchscreen.idc \
     vendor/samsung/smdk4412-common/proprietary/usr/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
     vendor/samsung/smdk4412-common/proprietary/usr/keylayout/sii9234_rcp.kl:system/usr/keylayout/sii9234_rcp.kl \
-    vendor/samsung/smdk4412-common/proprietary/vendor/firmware/SlimISP_BH.bin:system/vendor/firmware/SlimISP_BH.bin \
-    vendor/samsung/smdk4412-common/proprietary/vendor/firmware/SlimISP_GD.bin:system/vendor/firmware/SlimISP_GD.bin \
-    vendor/samsung/smdk4412-common/proprietary/vendor/firmware/SlimISP_GH.bin:system/vendor/firmware/SlimISP_GH.bin \
-    vendor/samsung/smdk4412-common/proprietary/vendor/firmware/SlimISP_GK.bin:system/vendor/firmware/SlimISP_GK.bin \
-    vendor/samsung/smdk4412-common/proprietary/vendor/firmware/SlimISP_JH.bin:system/vendor/firmware/SlimISP_JH.bin \
-    vendor/samsung/smdk4412-common/proprietary/vendor/firmware/SlimISP_PH.bin:system/vendor/firmware/SlimISP_PH.bin \
-    vendor/samsung/smdk4412-common/proprietary/vendor/firmware/SlimISP_WH.bin:system/vendor/firmware/SlimISP_WH.bin \
-    vendor/samsung/smdk4412-common/proprietary/vendor/firmware/SlimISP_ZD.bin:system/vendor/firmware/SlimISP_ZD.bin \
-    vendor/samsung/smdk4412-common/proprietary/vendor/firmware/SlimISP_ZH.bin:system/vendor/firmware/SlimISP_ZH.bin \
-    vendor/samsung/smdk4412-common/proprietary/vendor/firmware/SlimISP_ZK.bin:system/vendor/firmware/SlimISP_ZK.bin \
-    vendor/samsung/smdk4412-common/proprietary/vendor/firmware/SlimISP_ZM.bin:system/vendor/firmware/SlimISP_ZM.bin \
     vendor/samsung/smdk4412-common/proprietary/vendor/firmware/fimc_is_fw.bin:system/vendor/firmware/fimc_is_fw.bin \
     vendor/samsung/smdk4412-common/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
     vendor/samsung/smdk4412-common/proprietary/vendor/firmware/setfile.bin:system/vendor/firmware/setfile.bin \
